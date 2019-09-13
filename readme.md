@@ -1,8 +1,8 @@
-# global-hoos
+# global-hooks
 
 Hooks to manage Global state for React.It's very easy to use.
 
-[![npm version](https://img.shields.io/npm/v/redux-simplifier.svg?style=flat-square)](https://www.npmjs.com/package/redux)[![npm](https://img.shields.io/npm/dm/redux-simplifier.svg)](https://www.npmjs.com/package/redux-simplifier)
+[![npm version](https://img.shields.io/npm/v/global-hooks.svg?style=flat-square)](https://www.npmjs.com/package/global-hooks)[![npm](https://img.shields.io/npm/dm/global-hooks.svg)](https://www.npmjs.com/package/global-hooks)
 
 [中文](./docs/zh-cn.md)
 

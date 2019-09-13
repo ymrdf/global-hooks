@@ -1,10 +1,10 @@
-# global-hoos
+# global-hooks
 
 简单易用的管理react项目全局状态的React hooks.
 
 [![Build Status](https://travis-ci.org/ymrdf/redux-simplifier.svg?branch=master)](https://travis-ci.org/ymrdf/redux-simplifier)[![npm version](https://img.shields.io/npm/v/redux-simplifier.svg?style=flat-square)](https://www.npmjs.com/package/redux)[![npm](https://img.shields.io/npm/dm/redux-simplifier.svg)](https://www.npmjs.com/package/redux-simplifier)
 
-[ENGLISH](./readme.md)
+[ENGLISH](../readme.md)
 
 ## Installation
 
