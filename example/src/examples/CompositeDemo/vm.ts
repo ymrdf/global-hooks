@@ -1,4 +1,4 @@
-import { useGlobalReducer } from 'lobal-hooks';
+import { useGlobalReducer } from 'global-hooks';
 
 interface IState{
   backgroundColor:string,
