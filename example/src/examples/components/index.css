@@ -1,0 +1,14 @@
+.block{
+  margin-top: 16px;
+  background-color: #fff;
+  padding:30px 0px;
+}
+
+.block .block-title{
+  line-height: 50px;
+  border-bottom: 1px solid #dedede;
+}
+
+.block .block-body{
+  padding:16px 0px;
+}

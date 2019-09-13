@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "declarationMap": true,
+    "lib": ["es2015", "es2016", "dom"]
+  },
+  "include": ["src/*"]
+}

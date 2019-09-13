@@ -1,0 +1,39 @@
+{
+  "name": "global-hooks",
+  "version": "0.0.1",
+  "description": "Hooks to manage Global state for React.",
+  "main": "es/index.js",
+  "types": "es/index.d.ts",
+  "scripts": {
+    "build:commonjs": "tsc --module commonjs --outDir commonjs",
+    "build:es5": "tsc --module es6 --outDir es",
+    "build": "npm run build:commonjs && npm run build:es5",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymrdf/global-hooks.git"
+  },
+  "keywords": [
+    "global-hooks",
+    "globalHooks",
+    "hooks",
+    "global",
+    "react",
+    "react-hooks",
+    "state-management",
+    "state"
+  ],
+  "author": "ymrdf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ymrdf/global-hooks/issues"
+  },
+  "homepage": "https://github.com/ymrdf/global-hooks#readme",
+  "dependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": ">=16.8.0"
+  }
+}
