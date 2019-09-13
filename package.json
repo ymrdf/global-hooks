@@ -8,7 +8,7 @@
     "build:commonjs": "tsc --module commonjs --outDir commonjs",
     "build:es5": "tsc --module es6 --outDir es",
     "build": "npm run build:commonjs && npm run build:es5",
-    "test": "test"
+    "test": "./node_modules/.bin/tslint --project tsconfig.json --config tslint.json"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,8 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "@types/react": ">=16.8.0"
+    "@types/react": ">=16.8.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
   }
 }

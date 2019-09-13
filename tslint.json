@@ -1,0 +1,34 @@
+{
+    "extends": [
+        "tslint:latest"
+    ],
+    "rules": {
+        "object-literal-sort-keys": false,
+        "no-console": {
+            "severity": "warning",
+            "options": [
+                "log"
+            ]
+        },
+        "no-implicit-dependencies": [
+            true,
+            "dev",
+            [
+                "astroboy",
+                "definitions",
+                "zan-ajax",
+                "assets-route-plugin",
+                "route-plugin-v2"
+            ]
+        ],
+        "no-submodule-imports": [
+            true,
+            "zan-utils",
+            "definitions"
+        ],
+        "no-empty": false,
+        "no-angle-bracket-type-assertion": false,
+        "no-object-literal-type-assertion": false,
+        "trailing-comma": false
+    }
+}

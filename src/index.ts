@@ -1,4 +1,3 @@
-export { Provider } from './provider';
+export { Provider } from "./provider";
 
-export { useGlobalState, useGlobalReducer } from './hooks';
-
+export { useGlobalState, useGlobalReducer } from "./hooks";
