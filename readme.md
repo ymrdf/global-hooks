@@ -51,7 +51,7 @@ useGlobalState is a Hook which just like React's useState, but it add some globa
 
 ```js
 import React from 'react';
-import { useGlobalState } from '../global-hooks';
+import { useGlobalState } from 'global-hooks';
 
 export const CounterBtn = () => {
   const [count, setCount] = useGlobalState('count', 0);
@@ -89,7 +89,7 @@ useGlobalReducer is a Hook which just like React's useReducer, but it add some g
 
 ```js
 import React from 'react';
-import { useGlobalReducer } from '../global-hooks';
+import { useGlobalReducer } from 'global-hooks';
 
 const reducer = (state, action) => {
   switch(action.type){

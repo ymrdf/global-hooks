@@ -52,7 +52,7 @@ useGlobalState 类似于react的useState, 不同之处是它是在全局增加�
 
 ```js
 import React from 'react';
-import { useGlobalState } from '../global-hooks';
+import { useGlobalState } from 'global-hooks';
 
 export const CounterBtn = () => {
   const [count, setCount] = useGlobalState('count', 0);
@@ -89,7 +89,7 @@ useGlobalReducer 类似于useReducer, 不同之处是它是在全局增加一个
 
 ```js
 import React from 'react';
-import { useGlobalReducer } from '../global-hooks';
+import { useGlobalReducer } from 'global-hooks';
 
 const reducer = (state, action) => {
   switch(action.type){
